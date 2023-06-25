@@ -1,0 +1,9 @@
+version : '3.8'
+services :
+  redis-remoteService :
+    container_name : redis-remoteService
+    image : redis:latest
+    restart: always
+    ports: 
+      - 6380:6380 
+

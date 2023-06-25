@@ -1,0 +1,6 @@
+rootProject.name = 'remoteService'
+//include 'reddisonClient'
+include 'redissonCommon'
+include 'redissonServer'
+include 'redissonClient'
+

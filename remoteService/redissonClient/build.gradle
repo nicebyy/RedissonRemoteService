@@ -1,0 +1,9 @@
+bootJar {
+    archiveFileName = 'redisson-client'
+}
+
+dependencies {
+    implementation project(path: ":redissonCommon", configuration: 'default')
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.redisson:redisson:3.22.0'
+}
